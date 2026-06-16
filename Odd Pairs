@@ -1,0 +1,8 @@
+class Solution {
+    public String checkOddPairs(int a, int b, int c) {
+        if ((a % 2 != b % 2) || (a % 2 != c % 2) || (b % 2 != c % 2)) {
+            return "YES";
+        }
+        return "NO";
+    }
+}
